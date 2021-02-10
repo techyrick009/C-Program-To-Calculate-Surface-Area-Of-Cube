@@ -1,0 +1,49 @@
+
+/*
+ * 1000+ C programs + tutorials
+ *
+ *
+ * 15_calculate_surface_area_of_cude.c
+ *
+ *
+ *  Author: techyrick.com
+ */
+
+#include <stdio.h>
+//#include  <conio.h>
+
+void main() {
+
+  int side;
+  long surface_area_of_cube;
+
+//	clrscr();
+
+	printf(" Program to calculate Surface Area of a Cube :  ");
+
+	printf("\n\n Enter the Side of Cube : ");
+	scanf("%d", &side);
+    
+    
+    
+    surface_area_of_cube = 6*side*side;
+
+
+	printf("\n\n Surface area of Cude with side as %d = %ld",side,surface_area_of_cube);
+
+//	getch();
+
+
+
+/* Result :
+
+ Program to calculate Surface Area of a Cube :  
+
+ Enter the Side of Cube : 
+
+ Surface area of Cude with side as 3 = 54
+
+*/
+
+}
+
